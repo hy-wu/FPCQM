@@ -11,7 +11,7 @@ SIGMA  = 0.05
 
 IBRION = -1
 POTIM  = 0.5
-ISIF   = 4
+ISIF   = 3
 ADDGRID = .TRUE.
 
 ## pressure
@@ -47,15 +47,15 @@ BMIX = 0.0001
 BMIX_MAG = 0.0001
 
 ####collinear 
-#ISPIN  = 2  
-#MAGMOM = 6*0 5 
+ISPIN  = 2
+MAGMOM = 6*0 5 
 #LMAXMIX =  4 
 
 ####noncollinear
 #ISPIN  = 1 
-LNONCOLLINEAR = .TRUE.
-LSORBIT = .TRUE.
-MAGMOM = 18*0 0 0 5
+#LNONCOLLINEAR = .TRUE.
+#LSORBIT = .TRUE.
+#MAGMOM = 18*0 0 0 5
 #SAXIS = 0.0 0.0 1.0
 #NBANDS = 144
 #LMAXMIX =  4

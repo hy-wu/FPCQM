@@ -1,0 +1,21 @@
+{
+    "INCAR":
+    {
+        "origin": "INCAR-FM-SOC",
+        "task": "bulk-SOC-x-FM"    
+    },       
+
+    "KPOINTS":
+    {
+        "origin": "KPATH.in-Bulk", 
+        "task": "bulk-SOC-x-FM"
+    },
+
+    "POTCAR":
+    {
+        "origin1": "/home/stu2022/User/wuhaoyuan/0722/potpaw/LDA/Be",
+        "origin2": "/home/stu2022/User/wuhaoyuan/0722/potpaw/LDA/Te",
+        "origin3": "/home/stu2022/User/wuhaoyuan/0722/potpaw/LDA/Mn"        
+    }
+
+}

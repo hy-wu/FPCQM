@@ -1,3 +1,3 @@
 # my task
 
-bulk-SOC-x-FM
+Bulk-SOC-x-FM

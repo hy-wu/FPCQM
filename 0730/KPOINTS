@@ -13,3 +13,6 @@ reciprocal
 
  0.000000 0.000000 0.00000  G
  0.000000 0.500000 -0.5000  L
+
+#origin: KPATH.in-Bulk
+#task: bulk-SOC-x-FM
