@@ -9,7 +9,7 @@ ISYM   = 2
 ISMEAR = 0
 SIGMA  = 0.05
 
-IBRION = -1
+IBRION = 2
 POTIM  = 0.5
 ISIF   = 3
 ADDGRID = .TRUE.

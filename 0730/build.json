@@ -2,7 +2,12 @@
     "INCAR":
     {
         "origin": "INCAR-FM-SOC",
-        "task": "bulk-SOC-x-FM"    
+        "task": "bulk-SOC-x-FM" ,
+        "modify": 
+        {
+            "ISIF": 3,
+            "IBRION": 2
+        }  
     },       
 
     "KPOINTS":
