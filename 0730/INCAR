@@ -1,0 +1,101 @@
+SYSTEM = MBT
+ENCUT  = 350
+ISTART = 0  
+ICHARG = 2 
+#INIWAV = 1  
+ISYM   = 2  
+#SYMPREC = 1E-4
+#ISMEAR = -5 
+ISMEAR = 0
+SIGMA  = 0.05
+
+IBRION = -1
+POTIM  = 0.5
+ISIF   = 4
+ADDGRID = .TRUE.
+
+## pressure
+PSTRESS = 0
+
+PREC   = Accurate  
+NSW    = 0         
+EDIFFG = -1.0E-03
+NELM   = 50
+EDIFF  = 1.0E-06
+NELMIN = 4   
+#NELMDL = -5 
+
+ALGO   = Normal 
+GGA    = PE
+GGA_COMPAT = .FALSE.
+#VOSKOWN = 1 
+
+LREAL  = .FALSE. 
+LASPH  = .TRUE.  
+
+LORBIT = 11
+#NEDOS = 2001
+#NGX = 84 ; NGY = 84 ; NGZ = 84 
+
+LWAVE  = .FALSE.
+#LCHARG = .FALSE.
+
+#NPAR   = 4 
+AMIX = 0.2
+AMIX_MAG = 0.8
+BMIX = 0.0001
+BMIX_MAG = 0.0001
+
+####collinear 
+#ISPIN  = 2  
+#MAGMOM = 6*0 5 
+#LMAXMIX =  4 
+
+####noncollinear
+#ISPIN  = 1 
+LNONCOLLINEAR = .TRUE.
+LSORBIT = .TRUE.
+MAGMOM = 18*0 0 0 5
+#SAXIS = 0.0 0.0 1.0
+#NBANDS = 144
+#LMAXMIX =  4
+
+####compute
+NCORE = 8
+
+####wannier90
+#LWANNIER90 = .TRUE.
+#LWRITE_MMN_AMN=.TRUE.
+#LWANNIER90_RUN = .TRUE.
+
+#####HSE
+#LHFCALC  = .TRUE.
+#HFSCREEN = 0.2
+#ALGO     = Damped
+#TIME     = 0.4
+#PRECFOCK = Fast ! used PRECFOCK = Normal for high quality calculations
+#NKRED    = 2 ! omit flag for high quality calculations
+#NKREDX   = 2
+#NKREDY   = 2
+#NKREDZ   = 2
+#AEXX     = 0.25
+#ALDAC    = 1.0
+#AGGAX    = 0.75 ! 1.0 - AEXX
+#AGGAC    = 1.0
+
+####L(S)DA+U
+LDAU      = .TRUE.
+LDAUTYPE  = 2
+LDAUL     = -1 -1 2
+LDAUU     = 0.0 0.0 4.0
+LDAUJ     = 0.0 0.0 0.0
+LDAUPRINT = 2
+LMAXMIX   = 4
+
+#####vdw
+IVDW = 11
+#VDW_S6 = 1.000
+#VDW_S8 = 0.4679
+#VDW_A1 = 0.7875
+#VDW_A2 = 4.4407
+
